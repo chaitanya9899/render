@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BreastCancer-AI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container-fluid" style="background-color: #fff">
+    <div class="jumbotron" style="background-color: #ff8566">
+      <h1 style="margin-left: 105px;" >Breast Cancer Prediction using ML</h1 style="margin-left: 50px;" >  
+        <a style="color: black;" class="navbar-brand" href="/index">Home</a>    
+        <a style="margin-left: 69%; color: black;" class="navbar-brand" href="/about">About</a>
+        <a style="color: black;" class="navbar-brand" href="/data">Data</a>
+        <a style="color: black;" class="navbar-brand" href="/login">Sign-Out</a>
+    </div>
+  <div class="container">
+    
+
+    <div class="jumbotron">
+      <h1>Cancer is Predicted to be {{output}}</h1>      
+      <p>The Probability of {{output}} is {{accuracy}} %.</p>
+      <p>The time taken to predict is {{time}} s.</p>
+    </div>
+
+    <div class="row" style="margin: 0px">
+      <div class="col-sm-6 " style="background-color:#ccddff;padding: 15px">
+        <h2 style="text-align: center;">Benign Tumors</h2>
+        <p style="font-size: 1.2em;">
+          Since benign tumors are harmless, doctors may opt to leave the lump alone rather than remove it. If you are experiencing discomfort, irritation or pressure, let your doctor know so that she can plan to remove it for you and improve your comfort. 
+        </p>
+      </div>
+      <div class="col-sm-6" style="background-color:#ffccee;padding: 15px">
+        <h2 style="text-align: center;">Malignant tumors</h2>
+        <p style="font-size: 1.2em;">
+          Malignant tumors are cancerous and aggressive because they invade and damage surrounding tissue. When a tumor is suspected to be malignant, the doctor will perform a biopsy to determine the severity or aggressiveness of the tumor.
+        </p>
+      </div>
+    </div>
+
+
+
+   
+
+  </div>  
+
+
+</div>
+<br>
+<br>
+<div class="container">
+  <p id="footer" style="color: rgb(243, 12, 12); margin-left: 46%; ">Powered by W3 School</p>
+  <footer id="footer" style="color: rgb(17, 16, 16); margin-bottom: 5%; margin-left: 45%;">
+    &copy; Copyright Mbedtech 2021
+
+</footer>
+  
+</div>
+
+</body>
+</html>
